@@ -15,7 +15,6 @@ install: serialrenamerd
 	@cp fr.insa-rennes.clubrobot.serialrenamerd.plist /Library/LaunchDaemons/
 	@cp serialrenamerd /usr/local/bin/
 	@chmod 555 /usr/local/bin/serialrenamerd
-	@mkdir /tmp/arduino
 	@launchctl load /Library/LaunchDaemons/fr.insa-rennes.clubrobot.serialrenamerd.plist
 	@echo "Done !"
 
