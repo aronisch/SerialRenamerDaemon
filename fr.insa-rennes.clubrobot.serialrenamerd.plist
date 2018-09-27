@@ -10,5 +10,14 @@
 		<true/>
 		<key>KeepAlive</key>
 		<true/>
+		<key>EnvironmentVariables</key>
+		<dict>
+			<key>PATH</key>
+			<string>/opt/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:REPOSITORY</string>
+		</dict>
+		<key>StandardOutPath</key>
+		<string>/tmp/serialrenamerd.stdout</string>
+		<key>StandardErrorPath</key>
+		<string>/tmp/serialrenamerd.stderr</string>
 	</dict>
 </plist>
